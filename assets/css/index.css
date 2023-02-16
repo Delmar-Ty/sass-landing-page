@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+  background-color: #100C08;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#logo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo #title {
+  color: #FF5733;
+  padding: 2rem;
+  font-size: 3rem;
+}
+#logo i {
+  color: #FF5733;
+  font-size: 3rem;
+}
+
+nav {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+nav .nav-item {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-item i {
+  color: #FF5733;
+  font-size: 1.5rem;
+}
+
+#container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#container #slogan {
+  height: 30%;
+  color: #FF5733;
+  font-size: 4rem;
+}
+#container #signup {
+  padding: 1rem 4rem;
+  font-family: "Quicksand", sans-serif;
+  background-color: transparent;
+  border-style: solid;
+  color: #FF5733;
+  border-color: #FF5733;
+  font-size: 2rem;
+  transform: skew(-25deg);
+  transition: all;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+#container #signup #text {
+  transform: skew(25deg);
+  transition: all;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+#container #signup:hover {
+  transform: skew(0deg);
+}/*# sourceMappingURL=index.css.map */
